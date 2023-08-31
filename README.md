@@ -2,24 +2,36 @@
 
 The **mp_toujane_fix** map fixes several bugs in the original **mp_toujane** map for Call of Duty 2.
 
+
 ## Download
-- Actual version:
-	- 2021/05/16 - <b><a href="https://github.com/eyza-cod2/mp_toujane_fix/raw/main/mp_toujane_fix_v2.iwd">Toujane FIX v2</a></b>
+- The map is part of the [zPAM3.33](https://github.com/eyza-cod2/zpam3) mappack - **[zpam_maps_v3.iwd](https://github.com/eyza-cod2/zpam3/raw/abbc16d244a820aa08372d4238cb53062f90ced0/zip/main/zpam_maps_v3.iwd)**
+- Change map on the server via command **/rcon map mp_toujane_fix**
 
-
-- Previous versions:
-	- 2021/05/05 - <b><a href="https://github.com/eyza-cod2/mp_toujane_fix/tree/9e8d0a93a0f02aa10c358170af9f4ce75a671359">Toujane FIX v1</a></b>
 
 ## Changelog
-<details><summary>Toujane FIX v2 (click to open)</summary>
+<details><summary>2023/08/30 - <b>Toujane FIX v3</b> <i>(click to open)</i></summary>
 <p>
 
-- fixed link wall vault https://youtu.be/DuoJOrDeaaM
-
+- added missing note about higher skybox as -> [0] Higher skybox
+- fixed "banana spot" -> the corner + vaulting on the wall and floor was restored to original state -> in correlation with [3] Invisible player in location between banana and ladder fixed.
+- canceled fix "mid wall" -> [10] Mid vault removed to be able to jump behind the cover
+- new [13] B balcony vault mode changed from OVER to ON
+- new [14] Allies FOX - fixed wall-speed stuck
+- added support for aim trainer
+<br><br><br><br>
 </p>
 </details>
 
-<details><summary>Toujane FIX v1 (click to open)</summary>
+<details><summary>2021/05/16  - <b>Toujane FIX v2</b> <i>(click to open)</i></summary>
+<p>
+
+- fixed link wall vault https://youtu.be/DuoJOrDeaaM
+<br><br><br><br>
+</p>
+
+</details>
+
+<details><summary>2021/05/05 - <b>Toujane FIX v1</b> <i>(click to open)</i></summary>
 <p>
 
 - [1] Link stuck bug. You does not get stucked at marked locations any more.
@@ -34,23 +46,31 @@ The **mp_toujane_fix** map fixes several bugs in the original **mp_toujane** map
 - [10] Mid vault removed to be able to jump behind the cover.
 - [11] Bug under A roof - player was not visible. Fixed by new texture
 - [12] A + B bomb site - when bomb explode, exploded tank model is showed
+<br><br><br><br>
 </p>
 </details>
 
-## Installation
-- Download <b><a href="https://github.com/eyza-cod2/mp_toujane_fix/raw/main/mp_toujane_fix_v2.iwd">Toujane FIX v2</a></b> and move it into main folder.
-- Change map on the server via command /map mp_toujane_fix_v2
+
+## Credit
+**eyza** (discord: eyza_)<br>
+The guy responsible for map changes
+
+**Stendby** (discord: stendby)<br>
+The guy responsible for map changes
+
+**YctN** (discord: yctn)<br>
+The guy who bring this "fixed maps" idea together + server provider
+
+**Fjozek** (discord: fjozek)<br>
+The guy responsible for map changes
 
 
-- Notes:
-	- After some time, final map name will be mp_toujane_fix
 
-
-## Credit & Thanks
-- **Stendby** for map changes (discord: Stendby#3298)
-- **YctN** for making this possible (discord: FGH - YctN#1140)
 
 ## Bug fixes
+[0] Higher skybox<br>
+<a href="/images/skybox.jpg"><img src="/images/skybox.jpg" height="300" /></a><br>
+
 [1] Link stuck bug. You does not get stucked at marked locations any more.<br>
 <a href="/images/link_stuck.png"><img src="/images/link_stuck.png" height="300" /></a><br>
 
@@ -83,10 +103,16 @@ The **mp_toujane_fix** map fixes several bugs in the original **mp_toujane** map
 [9.3]<br>
 <a href="/images/jump_missing_texture_top.png"><img src="/images/jump_missing_texture_top.png" height="300" /></a><br>
 
-[10] Mid vault removed to be able to jump behind the cover.<br>
-<a href="/images/mid_vault_removed.png"><img src="/images/mid_vault_removed.png" height="300" /></a><br>
+[10] <b>Canceled</b> <del>Mid vault removed to be able to jump behind the cover</del>.<br>
+<a href="/images/mid_vault_removed.png"><img src="/images/mid_vault_removed.png" height="500" /></a><br>
 
 [11] Bug under A roof - player was not visible. Fixed by new texture<br>
 <a href="/images/underAroof_bug.jpg"><img src="/images/underAroof_bug.jpg" height="700" /></a><br>
 
 [12] A + B bomb site - when bomb explode, exploded tank model is showed<br>
+
+[13] B balcony vault mode changed from OVER to ON<br>
+<a href="/images/b_stairs_vault.png"><img src="/images/b_stairs_vault.png" height="300" /></a><br>
+
+[14] Allies FOX - fixed wall-speed stuck<br>
+<a href="/images/allies_fox_stuck.png"><img src="/images/allies_fox_stuck.png" height="300" /></a><br>
